@@ -37,6 +37,10 @@ class Gnuradio < Formula
   depends_on "wxmac"
   depends_on "freetype"
 
+  bottle do
+    sha256 "eb89797981dd526a89e9c3b563f5ae0d15b0c6fdc9d6873c9bd219d5a3596483" => :yosemite
+  end
+
   def install
     mkdir "build" do
       args = %W[
