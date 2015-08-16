@@ -32,7 +32,6 @@ class Gnuradio < Formula
   depends_on "orc"
   depends_on "pyqt" if build.with? "qt"
   depends_on "pyqwt" if build.with? "qt"
-  depends_on "sphinx" if build.with? "docs"
   depends_on "sphinx" => :python if build.with? "docs"
   depends_on "wxpython"
   depends_on "wxmac"
